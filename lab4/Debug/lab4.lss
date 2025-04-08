@@ -110,7 +110,7 @@ void initADC()
   a6:	ec e7       	ldi	r30, 0x7C	; 124
   a8:	f0 e0       	ldi	r31, 0x00	; 0
   aa:	10 82       	st	Z, r1
-	ADMUX |= (1 << MUX1) | (1 << MUX0); // ACtivando ADC2
+	ADMUX |= (1 << MUX1) | (1 << MUX0); // ACtivando ADC3
   ac:	80 81       	ld	r24, Z
   ae:	80 64       	ori	r24, 0x40	; 64
   b0:	80 83       	st	Z, r24
